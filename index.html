@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Implementos de Gimnasio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Venta de Implementos de Gimnasio</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="linkInicio">Inicio</a></li>
+                <li><a href="#" id="linkNosotros">Nosotros</a></li>
+                <li><a href="#" id="linkTestimonios">Testimonios</a></li>
+                <li><a href="#" id="linkPrecios">Precios</a></li>
+                <li><a href="#" id="linkContactos">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Comienzo">
+            <h2>Inicio</h2>
+            <p>Bienvenido a Implementos de Gimnasio, tu tienda de confianza para todo lo relacionado con el fitness.</p>
+            <img src="imagenes/TIENDA-LLAMADA-GYM.jpg" alt="Logo de la Empresa" class="move-side">
+            <img src="imagenes/ROPA DEPORTIVA FIT.jpg" alt="Logo de la Empresa" class="move-side">
+            <img src="imagenes/ROPA DEPORTIVA 2.jpg" alt="Logo de la Empresa" class="move-side">
+        </section>
+
+        <section id="Acerca-de-nuestra-empresa" style="display:none;">
+            <h2>Nosotros</h2>
+            <p>En Implementos de Gimnasio, somos apasionados del fitness y la salud.</p>
+        </section>
+
+        <section id="Declaracion" style="display:none;">
+            <h2>Testimonios</h2>
+            <p>María López: "Los implementos que compré han transformado mi entrenamiento."</p>
+            <p>Juan Pérez: "Desde que empecé a usar este producto, mis resultados han mejorado notablemente."</p>
+            <p>Ana García: "La calidad de los materiales es impresionante; realmente valen la pena."</p>
+            <p>Carlos Ruiz: "Este servicio ha cambiado mi forma de pensar y darme disciplina. ¡No puedo imaginarme una vida sin ejercitarme!"</p>
+            <p>Laura Torres: "Los cambios en mi aspecto físico son notables, estoy muy satisfecha."</p>
+            <p>Pedro Martínez: "Increíble relación calidad-precio, recomendado al 100%."</p>
+        </section>
+
+        <section id="Costo" style="display:none;">
+            <h2>Precios</h2>
+            <p>Aquí encontrarás los precios de nuestros productos/servicios, opciones de pago, costos adicionales y promociones. ¡Contáctanos para más información!.</p>
+        </section>
+
+        <section class="Precio" id="Precio" style="display:none;">
+            <h2>Precios de Equipos</h2>
+            <div class="Precio-item" style="background-color: #b6a04b;">
+                <h3>Mancuernas</h3>
+                <p>Usadas para ejercicios de fuerza y tonificación, como bíceps y tríceps.</p>
+                <p>Precio: S/75</p>
+                <img src="imagenes/mancuernas.jpg" alt="Mancuernas" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #f8c291;">
+                <h3>Barra Olímpica</h3>
+                <p>Ideal para levantamientos pesados como el press de banca, sentadillas y peso muerto.</p>
+                <p>Precio: S/110</p>
+                <img src="imagenes/barra-olimpica.jpg" alt="Barra Olímpica" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #997a5d;">
+                <h3>Bandejas de Peso</h3>
+                <p>Se utilizan junto con barras y mancuernas para ajustar la carga en los ejercicios.</p>
+                <p>Precio: S/50</p>
+                <img src="imagenes/bandeja-de-peso.jpg" alt="Bandejas de Peso" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #f891e2;">
+                <h3>Kettlebells</h3>
+                <p>Perfectas para entrenamientos de fuerza y resistencia, así como para ejercicios de alta intensidad.
+                </p>
+                <p>Precio: S/50</p>
+                <img src="imagenes/Kettlebells.jpg" alt="Bolas Medicinales" class="move-side">
+
+            </div>
+            <div class="Precio-item" style="background-color: #f5f891;">
+                <h3>Bolas medicinale</h3>
+                <p>Ideal para entrenamientos de alta intensidad y para mejorar la resistencia.</p>
+                <p>Precio: S/52</p>
+                <img src="imagenes/bolas-medicinales.jpg" alt="Cuerdas de Batalla" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #f891cf;">
+                <h3>Banda de Resistencia</h3>
+                <p>Perfecta para calentamientos, rehabilitación y entrenamiento de fuerza.</p>
+                <p>Precio: S/40</p>
+                <img src="imagenes/Banda de resistencia.jpeg" alt="Banda de Resistencia" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #613711;">
+                <h3>Trampolines</h3>
+                <p>Utilizados para ejercicios de cardio y tonificación.</p>
+                <p>Precio: S/60</p>
+                <img src="imagenes/Trampolines.jpg" alt="Trampolines" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #f89191;">
+                <h3>Elípticas</h3>
+                <p>Ofrecen un entrenamiento cardiovascular de bajo impacto.</p>
+                <p>Precio: S/90</p>
+                <img src="imagenes/Elípticas.jpg" alt="Elípticas" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #c3f891;">
+                <h3>Bicicletas Estáticas</h3>
+                <p>Utilizadas para el entrenamiento cardiovascular.</p>
+                <p>Precio: S/35</p>
+                <img src="imagenes/Bicicletas-estáticas.jpeg" alt="Bicicletas Estáticas" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #ba91f8;">
+                <h3>Colchonetas de gym</h3>
+                <p>Usadas para mejorar la coordinación y la agilidad.</p>
+                <p>Precio: S/20</p>
+                <img src="imagenes/colchonetas-de-gym.jpg" alt="Colchonetas de gym" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #ba91f8;">
+                <h3>Kettlebells</h3>
+                <p>Perfectas para entrenamientos de fuerza y resistencia.</p>
+                <p>Precio: S/70</p>
+                <img src="imagenes/Kettlebells.jpg" alt="Kettlebells" class="move-side" >
+            </div>
+            <div class="Precio-item" style="background-color: #ba91f8;">
+                <h3>Escalera de Agilidad</h3>
+                <p>Diseñadas para trabajar músculos específicos.</p>
+                <p>Precio: S/65</p>
+                <img src="imagenes/escalera_de_agilidad.jpg" alt="Máquinas de pesas" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #ba91f8;">
+                <h3>Remoergómetros</h3>
+                <p>Ejercicios de remo que trabajan varios grupos musculares.</p>
+                <p>Precio: S/70</p>
+                <img src="imagenes/Remoergómetros.jpg" alt="Remoergómetros" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #ba91f8;">
+                <h3>Cuerdas de batalla</h3>
+                <p>Trabajan varios grupos musculares, especialmente la parte superior del cuerpo, incluyendo brazos,
+                    hombros y core.</p>
+                <p>Precio: S/90</p>
+                <img src="imagenes/Cuerdas-de-batalla.jpg" alt="Remoergómetros" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #ba91f8;">
+                <h3>Máquinas de pesas</h3>
+                <p>Son equipos de ejercicio diseñados para ayudar en el entrenamiento de fuerza.</p>
+                <p>Precio: S/90</p>
+                <img src="imagenes/Máquinas-de-pesas.jpg" alt="Remoergómetros" class="move-side">
+            </div>
+            <div class="Precio-item" style="background-color: #ba91f8;">
+                <h3>Barra de mancuernas</h3>
+                <p>La barra de mancuernas, o barra de pesas, se utiliza principalmente para realizar ejercicios de
+                    levantamiento de pesas que ayudan a desarrollar fuerza y masa muscular.</p>
+                <p>Precio: S/90</p>
+                <img src="imagenes/barra-de-mancuernas.jpeg" alt="Remoergómetros" class="move-side">
+
+            </div>
+
+        </section>
+
+        <section id="Comunicarse-a-los-numeros" style="display:none;">
+            <h2>Contactos</h2>
+            <p>Puedes comunicarte a los siguientes números:</p>
+            <p>974917329.</p>
+            <p>924172453.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Implementos de Gimnasio - Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+
+        function ocultarSecciones() {
+            document.getElementById('Comienzo').style.display = 'none';
+            document.getElementById('Acerca-de-nuestra-empresa').style.display = 'none';
+            document.getElementById('Declaracion').style.display = 'none';
+            document.getElementById('Costo').style.display = 'none';
+            document.getElementById('Comunicarse-a-los-numeros').style.display = 'none';
+            document.getElementById('Precio').style.display = 'none'; 
+        }
+
+
+        document.getElementById('linkInicio').onclick = function() {
+            ocultarSecciones();
+            document.getElementById('Comienzo').style.display = 'block';
+        };
+
+        document.getElementById('linkNosotros').onclick = function() {
+            ocultarSecciones();
+            document.getElementById('Acerca-de-nuestra-empresa').style.display = 'block';
+        };
+
+        document.getElementById('linkTestimonios').onclick = function() {
+            ocultarSecciones();
+            document.getElementById('Declaracion').style.display = 'block';
+        };
+
+        document.getElementById('linkPrecios').onclick = function() {
+            ocultarSecciones();
+            document.getElementById('Precio').style.display = 'block';
+        };
+        document.getElementById('linkContactos').onclick = function() {
+            ocultarSecciones();
+            document.getElementById('Comunicarse-a-los-numeros').style.display = 'block';
+        };
+        </script>
+        </body>
+</html>
